@@ -28,7 +28,6 @@ namespace MathLibrary {
 
 
 
-
 			var answer1 = Math.Power(2, 2);
 			Console.WriteLine($"pow {answer1}\n");
 
@@ -37,6 +36,16 @@ namespace MathLibrary {
 
 			var answer3 = Math.Power(2, 0);
 			Console.WriteLine($"{answer3}\n");
+
+
+			var answera2 = Math.IsEven(5);
+			Console.WriteLine($"{answera2}\n");
+
+			var answera3 = Math.IsEven(2);
+			Console.WriteLine($"{answera3}\n");
+
+
+
 
 			/*
 

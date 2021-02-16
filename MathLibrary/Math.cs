@@ -52,12 +52,7 @@ namespace MathLibrary {
 			/*
 			
 
-			
 			 */
-
-
-
-
 
 			/* 
 			// Doug's Way
@@ -70,7 +65,19 @@ namespace MathLibrary {
 			// Fails when b == 0
 			*/
 
+
+
 		}
+
+			// bool IsEven(int i)
+			// return true if i is even; else return false;
+			// no use of "%"
+
+			public static bool IsEven (int a) {
+				
+				var x = (a - (a / 2 * 2) == 0 )?true:false;		
+				return x;
+			}
 
 
 
